@@ -17,6 +17,7 @@ When the page loads, make a GET request to `http://localhost:3000/games/1` and s
 
 ## Challenge #3 
 The user should be able to enter a high score in the form on the right side and have it show that value for "high score".
+
 *The value of the high score does not need to persist.*
 
 ## Bonus Challenge
