@@ -12,13 +12,14 @@ Make a request to `http://localhost:3000/games` and add the names of all the gam
 
 
 ## Challenge #2
-When the page loads, show the `image`, `name`, and `high_score` properties of the the **first** game in the array returned from your fetch. 
+When the page loads, make a GET request to `http://localhost:3000/games/1` and show the `image`, `name`, and `high_score` properties of the game object returned from your fetch. 
 
-## Challenge #3
-When the user clicks on one of the games in the list, display all the details of that game.
 
-## Challenge #4 
+## Challenge #3 
 The user should be able to enter a high score in the form on the right side and have it show that value for "high score".
+*The value of the high score does not need to persist.*
 
-*The value of the high score does not need to persist between refreshes, but should save state when switching between games.*
+## Bonus Challenge
+
+When the user clicks on one of the games in the list, display all the details of that game.
 
